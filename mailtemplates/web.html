@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Potential</title>
+  <style>
+  /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-color: #2a2a40;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #2a2a40;
+}
+
+.logo {
+  font-size: 24px;
+  color: #ffa500;
+}
+
+.nav a {
+  margin-left: 20px;
+  color: #ffa500;
+  text-decoration: none;
+}
+
+.nav .login {
+  font-weight: bold;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  min-height: 80vh;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero-content h1 span {
+  color: #ffa500;
+}
+
+.hero-content p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  border: none;
+  color: #2a2a40;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e69500;
+}
+
+.hero-image {
+  background-image: url('city-lights.jpg'); /* Replace with actual image URL */
+  background-size: cover;
+  background-position: center;
+  width: 45%;
+  height: 60vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+}
+
+</style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🌄</div>
+    <nav class="nav">
+      <a href="#about">About Us</a>
+      <a href="#approach">Our Approach</a>
+      <a href="#services">Services</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+      <a href="#login" class="login">Login</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-content">
+      <h1>REALIZE YOUR <span>DIGITAL</span> POTENTIAL</h1>
+      <p>We put smarts over stacks, helping you reshape the role of technology platforms as business-driving assets.</p>
+      <button class="cta-btn">Explore our services</button>
+    </div>
+    <div class="hero-image"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
