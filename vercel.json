@@ -1,7 +1,16 @@
 {
     "version": 2,
+    "builds": [
+      {
+        "src": "index.php",
+        "use": "@vercel/php"
+      }
+    ],
     "routes": [
-      { "src": "/api/(.*)", "dest": "/api/$1" }
+      {
+        "src": "/api",
+        "dest": "/index.php"
+      }
     ]
   }
   
